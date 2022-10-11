@@ -1,0 +1,209 @@
+@font-face {
+	font-family: Montserrat;
+	src: url("../fonts/Montserrat/Montserrat-VariableFont_wght.ttf");
+}
+
+@font-face {
+	font-family: AbrilFatface;
+	src: url("../fonts/Abril_Fatface/AbrilFatface-Regular.ttf");
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	margin: 0px;
+	font-family: Montserrat, cursive;
+}
+
+header {
+	background-color: gray;
+	background-image: url("../images/bg.jpg");
+	height: 570px;
+	background-size: cover;
+	color: white;
+}
+
+.header-elements {
+	align-items: center;
+	display: flex;
+}
+
+.logo, header nav {
+	margin-left: 15px;
+	margin-top: 15px;
+}
+
+.logo {
+	background-image: url("../images/logo.png");
+	width: 126px;
+	height: 62px;
+	background-size: 100%;
+}
+
+.menu {
+	display: flex;
+	width: 300px;
+	justify-content: space-between;
+	font-size: 75%;;
+}
+
+ul {
+	list-style-type: none;
+}
+
+h1, h2 {
+	font-family: AbrilFatface;
+	font-weight: lighter;
+	margin-left: 60px;
+	margin-top: 50px;
+}
+
+h1 {
+	width: 450px;
+	font-size: 65px;
+}
+
+h2 {
+	font-size: 2.5em;
+}
+
+h2:first-letter 
+{
+  text-decoration: underline;
+  text-decoration-thickness: 5px;
+  text-decoration-color: #94b820;
+}
+
+h3 {
+	font-size: 1em;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+.scroll-line {
+	margin-left: 60px;
+	margin-top: 130px;
+}
+
+.scroll {
+	font-weight: lighter;
+}
+
+.scroll-line img {
+	margin-left: 5px;
+	height: 13px;
+}
+
+#services ul {
+	display: flex;
+	justify-content: space-around;
+}
+
+li .services {
+	width: 80px;
+	height: 80px;
+}
+
+#services li img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#services li p {
+	width: 180px;
+	text-align: center;
+	font-weight: 900;
+}
+
+.meilleures-plantes {
+	margin: 0px 60px;
+	display: flex;
+	overflow: hidden;
+}
+
+.plante-container {
+	position: relative;
+}
+
+.plante-info {
+	position: absolute;
+	bottom: 0px;
+	padding: 5px 15px;
+	background-color: white;
+	opacity: .8;
+	width: 100%;
+}
+
+.price {
+	color: #94b820;
+	font-size: smaller;
+}
+
+.name , .price {
+	font-weight: bold;
+	margin: 5px;
+}
+
+.nos-plantes {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-column-gap: 30px;
+	margin: 0px 60px;
+}
+
+.elem2 {
+	position: relative;
+	display: grid;
+	grid-template-rows: 1fr, 1fr;
+	grid-row-gap: 30px;
+}
+
+.elem2 img {
+	/* height: 48%; */
+	position: absolute;
+}
+
+.all-plants {
+	display: grid;
+	grid-template-rows: 1fr 1fr;
+	grid-row-gap: 30px;
+}
+
+#plant2 {
+	bottom: 0px;
+}
+
+.plante {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.nos-plantes-2 {
+	display: grid;
+	grid-template-columns: 1fr 3fr 1fr;
+	grid-column-gap: 30px;
+	margin: 0px 60px;
+}
+
+.elem1, .elem2-1, .elem2-2, .elem3, .elem4, .elem5 {
+	position: relative;
+}
+
+footer {
+	display: flex;
+	justify-content: space-between;
+	font-weight: bold;
+	margin: 60px 60px;
+	font-size: small;
+}
+
+footer a {
+	color: black;
+}
