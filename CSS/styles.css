@@ -118,7 +118,7 @@ li .services {
 #services li p {
 	width: 180px;
 	text-align: center;
-	font-weight: 900;
+	font-weight: bold;
 }
 
 .meilleures-plantes {
@@ -187,7 +187,7 @@ li .services {
 
 .nos-plantes-2 {
 	display: grid;
-	grid-template-columns: 1fr 3fr 1fr;
+	grid-template-columns: 2fr 4fr 2fr;
 	grid-column-gap: 30px;
 	margin: 0px 60px;
 }
